@@ -8,7 +8,7 @@ android_app_import {
 	presigned: true,
     overrides: ["Gallery2"],
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	product_specific: true,
 }
@@ -20,7 +20,7 @@ android_app_import {
 	presigned: true,
     overrides: ["Snap"],
 	dex_preopt: {
-		enabled: false,
+		enabled: true,
 	},
 	product_specific: true,
 }

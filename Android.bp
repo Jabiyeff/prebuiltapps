@@ -14,13 +14,13 @@ android_app_import {
 }
 
 android_app_import {
-	name: "CameraGo",
-	owner: "google",
-	apk: "CameraGo.apk",
+	name: "SnapCamera",
+	owner: "codeaurora",
+	apk: "Snap.apk",
 	presigned: true,
     overrides: ["Snap"],
 	dex_preopt: {
 		enabled: true,
 	},
-	product_specific: true,
+	system_ext_specific: true,
 }

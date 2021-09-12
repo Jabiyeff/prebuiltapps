@@ -3,4 +3,4 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_PACKAGES += \
     QPGallery \
-    CameraGo
+    SnapCamera

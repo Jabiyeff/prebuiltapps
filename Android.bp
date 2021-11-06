@@ -2,11 +2,11 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "QPGallery",
-	owner: "google",
-	apk: "QPGallery.apk",
+	name: "Lawnchair",
+	owner: "xiaomi",
+	apk: "Lawnchair.apk",
 	presigned: true,
-    overrides: ["Gallery2"],
+    overrides: ["NexusLauncherRelease", "Launcher3QuickStep", "Launcher3"],
 	dex_preopt: {
 		enabled: true,
 	},

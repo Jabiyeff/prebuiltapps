@@ -2,13 +2,14 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "Lawnchair",
-	owner: "xiaomi",
-	apk: "Lawnchair.apk",
+	name: "FilesPrebuilt",
+	owner: "gapps",
+	apk: "FilesPrebuilt.apk",
 	presigned: true,
-    overrides: ["NexusLauncherRelease", "Launcher3QuickStep", "Launcher3"],
+	overrides: ["DocumentsUI"],
 	dex_preopt: {
-		enabled: true,
+		enabled: false,
 	},
+	privileged: true,
 	product_specific: true,
 }

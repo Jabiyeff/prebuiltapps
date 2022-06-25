@@ -6,7 +6,7 @@ android_app_import {
 	owner: "google",
 	apk: "QPGallery.apk",
 	presigned: true,
-    overrides: ["Gallery2"],
+	overrides: ["Gallery2"],
 	dex_preopt: {
 		enabled: true,
 	},
